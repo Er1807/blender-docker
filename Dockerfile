@@ -10,7 +10,7 @@ RUN apt-get update && \
 		libgl1-mesa-dev \
 		libglu1-mesa \
 		libxi6 \
-        xz-utils \
+		xz-utils \
 		libxrender1 && \
 	apt-get -y autoremove && \
 	rm -rf /var/lib/apt/lists/*
